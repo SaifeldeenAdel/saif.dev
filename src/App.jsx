@@ -3,10 +3,9 @@ import "./App.css";
 
 function App() {
 	const [count, setCount] = useState(0);
-
 	return (
-		<div className="">
-			<div>Hi</div>
+		<div className="flex justify-center items-center">
+			<div className="text-2xl text-primary font-bold "></div>
 		</div>
 	);
 }
