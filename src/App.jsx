@@ -5,7 +5,7 @@ function App() {
 	const [count, setCount] = useState(0);
 	return (
 		<div className="flex justify-center items-center">
-			<div className="text-2xl text-primary font-bold "></div>
+			<div className="text-2xl text-primary font-bold "> Hi there</div>
 		</div>
 	);
 }
