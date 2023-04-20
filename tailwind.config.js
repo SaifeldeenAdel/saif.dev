@@ -5,11 +5,11 @@ export default {
 		extend: {
 			colors: {
 				dark: {
-					1: "#1f2425",
-					2: "#3F4E4F",
+					1: "#1a1d1f",
+					2: "#3f4a4f",
 				},
 				primary: "#f3f1ec",
-				secondary: "#ffbf8b",
+				secondary: "#FFC085",
 			},
 			fontFamily: {
 				sans: ["Josefin Sans", "sans-serif"],
