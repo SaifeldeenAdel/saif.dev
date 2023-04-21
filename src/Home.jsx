@@ -2,6 +2,7 @@ import { FaFigma, FaGithub, FaReact } from "react-icons/fa";
 import { SiDjango, SiNextdotjs, SiTailwindcss, SiVite, SiOpencv } from "react-icons/si";
 
 export default function Home() {
+	document.title = "saif ↦ home";
 	return (
 		<>
 			<h1 className="mb-2 text-4xl font-bold">Hi, I'm Saif.</h1>

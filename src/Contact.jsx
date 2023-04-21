@@ -2,6 +2,8 @@ import { FaEnvelope, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { MdNotes } from "react-icons/md";
 
 export default function Contact() {
+	document.title = "saif ↦ contact";
+
 	return (
 		<>
 			<h1 className="mb-5 text-4xl font-bold">Contact Me!</h1>
