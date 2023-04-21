@@ -1,12 +1,10 @@
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <a href="">
     <img src="public/saif.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h2 align="center"><b>saif.dev</b></h2>
-  <br />
+  <h1 align="center"><b>saif.dev</b></h1>
 
   <p align="center">
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
