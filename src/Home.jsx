@@ -26,7 +26,7 @@ export default function Home() {
 				. And in my free time I like to read, bake, and play chess. And you might
 				sometimes find me writing one of my{" "}
 				<a
-					href="https://mindcanvas.com"
+					href="https://mindcanvas.vercel.app"
 					target="_blank"
 					className="text-secondary"
 				>
@@ -90,14 +90,14 @@ export default function Home() {
 
 			<h1 className="mb-4 text-3xl font-bold">Things I've Built</h1>
 			<section className="mb-10 grid grid-cols-1 gap-5 sm:grid-cols-2">
-				{/* <a href="https://github.com/SaifeldeenAdel/mindcanvas" target="_blank">
+				<a href="https://github.com/SaifeldeenAdel/mindcanvas" target="_blank">
 					<div className="flex h-[10em] flex-col gap-y-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 p-5 font-light transition-all duration-200 hover:scale-105">
 						<div className="flex flex-col gap-y-1">
 							<span className="text-[1.3rem] font-light text-secondary">
 								MindCanvas
 							</span>
 							<p className="text-[1.1rem] leading-5 tracking-tighter">
-								Blog website for when I want to talk about something.
+								Blog website for talking about things that interest me.
 							</p>
 						</div>
 						<div className="flex flex-row gap-x-2">
@@ -106,7 +106,7 @@ export default function Home() {
 							<div>Tailwind CSS</div>
 						</div>
 					</div>
-				</a> */}
+				</a>
 
 				<a href="https://github.com/SaifeldeenAdel/saif.dev" target="_blank">
 					<div className="flex h-[10em] flex-col gap-y-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 p-5 font-light transition-all duration-200 hover:scale-105">

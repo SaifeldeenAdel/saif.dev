@@ -5,8 +5,8 @@ export default function Blog() {
 
 	return (
 		<>
-			<span className="mb-2 flex flex-row items-center justify-center gap-3 rounded-xl border border-secondary border-opacity-80 bg-dark-2 p-3 text-center text-base font-bold sm:text-xl">
-				<FaHammer size={25} className="mb-1" /> blog site is underway, sit tight!
+			<span className="mb-2 py-6 flex flex-row items-center justify-center gap-3 rounded-xl border border-secondary border-opacity-80 bg-dark-2 p-3 text-center text-base font-bold sm:text-xl">
+				Read my blog posts at<a href="https://mindcanvas.vercel.app" target="_blank" className="text-secondary font-bold">MINDCANVAS</a>
 			</span>
 		</>
 	);
