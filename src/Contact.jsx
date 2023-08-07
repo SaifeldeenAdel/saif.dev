@@ -1,5 +1,6 @@
-import { FaEnvelope, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { MdNotes } from "react-icons/md";
+import { FaBriefcase, FaEnvelope, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { RiFilePaperLine } from "react-icons/ri";
+import CV from "../public/CV.pdf"
 
 export default function Contact() {
 	document.title = "saif ↦ contact";
@@ -16,6 +17,11 @@ export default function Contact() {
 				<a href="https://linkedin.com/in/SaifeldeenAdel" target="_blank">
 					<div className="flex h-[4em] items-center justify-center gap-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 font-light transition-all duration-200 hover:scale-105">
 						<FaLinkedin size={28} /> Let's Connect
+					</div>
+				</a>
+        <a href={CV} target="_blank">
+					<div className="flex h-[4em] items-center justify-center gap-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 font-light transition-all duration-200 hover:scale-105">
+						<RiFilePaperLine size={28} /> My CV
 					</div>
 				</a>
 				<a href="https://www.instagram.com/saifeldeenadel/" target="_blank">
