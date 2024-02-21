@@ -1,5 +1,12 @@
 import { FaFigma, FaGithub, FaReact } from "react-icons/fa";
-import { SiDjango, SiNextdotjs, SiTailwindcss, SiVite, SiOpencv } from "react-icons/si";
+import {
+	SiDjango,
+	SiNextdotjs,
+	SiTailwindcss,
+	SiVite,
+	SiOpencv,
+	SiSupabase,
+} from "react-icons/si";
 
 export default function Home() {
 	document.title = "saif ↦ home";
@@ -7,10 +14,19 @@ export default function Home() {
 		<>
 			<h1 className="mb-2 text-4xl font-bold">Hi, I'm Saif.</h1>
 			<p className="text-[1.2rem] font-light">
-				I'm a 19 y/o self-taught developer and I like to code. Currently, I'm
-				mostly interested in building <b>clean, minimal UI</b> for web
-				applications. However I also try to dip my toes into the rest of the stack
-				and not just stick to the frontend side of things.
+				I'm a 20 y/o Computer engineering undergraduate, self-taught developer and
+				I like to code. Currently, I'm mostly interested in building{" "}
+				<b>clean, minimal UI/UX</b> for web applications as it combines my knack
+				for design and love for coding. However I tend to dip my toes into the
+				rest of the stack as you'll see in my projects.
+			</p>
+			<br />
+
+			<p className="text-[1.2rem] font-light">
+				I also have a pretty strong interest in machine learning, particularly
+				computer vision applications. I find that I get to satisfy my love for
+				mathematics when I'm exploring ML algorithms and studying problems in that
+				domain.
 			</p>
 			<br />
 
@@ -56,6 +72,18 @@ export default function Home() {
 					</div>
 				</a>
 
+				<a href="https://figma.com" target="_blank">
+					<div className="flex h-[4.5em] items-center justify-center gap-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 p-3 font-light transition-all duration-200 hover:scale-105">
+						<FaFigma size={30} /> Figma
+					</div>
+				</a>
+
+				<a href="https://supabase.com" target="_blank">
+					<div className="flex h-[4.5em] items-center justify-center gap-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 p-3 font-light transition-all duration-200 hover:scale-105">
+						<SiSupabase size={30} /> Supabase
+					</div>
+				</a>
+
 				<a href="https://vitejs.dev" target="_blank">
 					<div className="flex h-[4.5em] items-center justify-center gap-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 p-3 font-light transition-all duration-200 hover:scale-105">
 						<SiVite size={30} /> Vite
@@ -74,12 +102,6 @@ export default function Home() {
 					</div>
 				</a>
 
-				<a href="https://figma.com" target="_blank">
-					<div className="flex h-[4.5em] items-center justify-center gap-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 p-3 font-light transition-all duration-200 hover:scale-105">
-						<FaFigma size={30} /> Figma
-					</div>
-				</a>
-
 				<a href="https://opencv.org/" target="_blank">
 					<div className="flex h-[4.5em] items-center justify-center gap-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 p-3 font-light transition-all duration-200 hover:scale-105">
 						<SiOpencv size={30} /> OpenCV
@@ -90,6 +112,25 @@ export default function Home() {
 
 			<h1 className="mb-4 text-3xl font-bold">Things I've Built</h1>
 			<section className="mb-10 grid grid-cols-1 gap-5 sm:grid-cols-2">
+				<a href="https://github.com/SaifeldeenAdel/recipist" target="_blank">
+					<div className="flex h-[10em] flex-col gap-y-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 p-5 font-light transition-all duration-200 hover:scale-105">
+						<div className="flex flex-col gap-y-1">
+							<span className="text-[1.3rem] font-light text-secondary">
+								Recipist
+							</span>
+							<p className="text-[1.1rem] leading-5 tracking-tighter">
+								Recipe creator tool for cooking and baking enthusiasts.
+							</p>
+						</div>
+						<div className="flex flex-row gap-x-2">
+							<div>Next.js</div>
+							<span className="font-bold">•</span>
+							<div>Supabase</div>
+							<span className="font-bold">•</span>
+							<div>Tailwind CSS</div>
+						</div>
+					</div>
+				</a>
 				<a href="https://github.com/SaifeldeenAdel/mindcanvas" target="_blank">
 					<div className="flex h-[10em] flex-col gap-y-4 rounded-lg border border-secondary border-opacity-80 bg-dark-2 p-5 font-light transition-all duration-200 hover:scale-105">
 						<div className="flex flex-col gap-y-1">
