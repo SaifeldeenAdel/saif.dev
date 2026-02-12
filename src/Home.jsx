@@ -123,10 +123,8 @@ export default function Home() {
 
 			<p className="text-[1.2rem] font-light">
 				I'm a 22 y/o Computer Engineering undergraduate who likes to code. Lately,
-				I've been especially interested in AI research, particularly in the fields
-				of computer vision I'm particularly drawn towards the fact that I can
-				satisfy my love for mathematics along with programming while working in
-				the domain of AI research.
+				I've been especially interested in AI research, particularly in the field
+				of computer vision. What draws me into the domain of AI research is the fact that I can satisfy my love for mathematics along with programming, its two birds with one stone.
 			</p>
 			<br />
 
