@@ -29,18 +29,10 @@ function Layout() {
 								: "hover:underline hover:underline-offset-4"
 						}
 					>
-						Blog
+						Misc.
 					</NavLink>
 
-					<a
-						href="https://github.com/SaifeldeenAdel"
-						target="_blank"
-						className="hover:underline hover:underline-offset-4"
-					>
-						GitHub
-					</a>
-
-					<NavLink
+                    <NavLink
 						to={`/contact`}
 						className={({ isActive }) =>
 							isActive
@@ -50,6 +42,16 @@ function Layout() {
 					>
 						Contact Me
 					</NavLink>
+                    
+					<a
+						href="https://github.com/SaifeldeenAdel"
+						target="_blank"
+						className="hover:underline hover:underline-offset-4"
+					>
+						GitHub
+					</a>
+
+					
 				</nav>
 			</header>
 			<main>
